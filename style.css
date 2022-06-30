@@ -36,10 +36,18 @@ body {
 }
 
 .main-img {
+  display: block;
   border-radius: 11px;
   margin-bottom: 1.6rem;
   width: 25rem;
   align-self: center;
+  transition: all 0.3s;
+}
+
+.main-img:hover {
+  cursor: pointer;
+  background: turquoise, url(./images/icon-view.svg);
+  background-position: center;
 }
 
 .heading-card {
